@@ -31,33 +31,33 @@ var arrayTasks = {
 		     total += item;
 		   }
 		   return total;
-		 }
+		 },
 
-	// findDuplicates: function (arr) {
-	// 	var newArray = [];
-	// 	for(i = 0; i < arr.length; i++){
-	// 		if(arr[i] != newArray){
-	// 			newArray.push(arr[i]);
-	// 		}
+	findDuplicates: function (arr) {
+		var newArray = [];
+		for(i = 0; i < arr.length; i++){
+			if(arr[i] != newArray){
+				newArray.push(arr[i]);
+			}
 
-	// 	}
- //      return newArray;
+		}
+      return newArray;
 
 			
 		
 		
-	// },
+	},
 
-	// removeAndClone: function (arr, valueToRemove) {
-	// 	 var newArray = [];
-	// 	 for(var i = 0; i < arr.length; i++){
-	// 	 	if(arr[i] != valueToRemove){
-	// 	 		 newArray.push(arr[i]);
-	// 	 	}
-	// 	 }
-	// 	 return newArray;
+	removeAndClone: function (arr, valueToRemove) {
+		 var newArray = [];
+		 for(var i = 0; i < arr.length; i++){
+		 	if(arr[i] != valueToRemove){
+		 		 newArray.push(arr[i]);
+		 	}
+		 }
+		 return newArray;
 		
-	//  },
+	 }
 
 	// findIndexesOf: function (arr, itemToFind) {
 	// 	var newArray = [];
