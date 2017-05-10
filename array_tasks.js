@@ -69,17 +69,17 @@ var arrayTasks = {
 		}
 		return newArray;
 		
-	}
+	},
 
-	// sumOfAllEvenNumbersSquared: function (arr) {
-	// 	total = 0;
-	// 	for (var item of arr){
-	// 	  if(item % 2 === 0){
-	// 	  	total += item * item;
-	// 	  }
-	// 	}
-	// 	return total;
-	// }
+	sumOfAllEvenNumbersSquared: function (arr) {
+		total = 0;
+		for (var item of arr){
+		  if(item % 2 === 0){
+		  	total += item * item;
+		  }
+		}
+		return total;
+	}
 
 }
 
