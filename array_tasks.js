@@ -57,19 +57,19 @@ var arrayTasks = {
 		 }
 		 return newArray;
 		
-	 }
+	 },
 
-	// findIndexesOf: function (arr, itemToFind) {
-	// 	var newArray = [];
-	// 	for(var i = 0; i < arr.length; i++){
-	// 		if(arr[i] === itemToFind){
-	// 			    newArray.push(i);
-	// 			 // newArray.push( arr.indexOf(arr[i]));
-	// 		}
-	// 	}
-	// 	return newArray;
+	findIndexesOf: function (arr, itemToFind) {
+		var newArray = [];
+		for(var i = 0; i < arr.length; i++){
+			if(arr[i] === itemToFind){
+				    newArray.push(i);
+				 // newArray.push( arr.indexOf(arr[i]));
+			}
+		}
+		return newArray;
 		
-	// },
+	}
 
 	// sumOfAllEvenNumbersSquared: function (arr) {
 	// 	total = 0;
