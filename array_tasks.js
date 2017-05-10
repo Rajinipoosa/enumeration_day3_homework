@@ -13,17 +13,17 @@ var arrayTasks = {
 		 arr.splice(index, 0, itemToAdd);
 		    
 		    return arr;
-	}
+	},
 	
 
-	// square: function (arr) {
-	// 	 var newArray = [];
-	// 	     for(var item of arr){
-	// 	     	newArray.push(item*item);
-	// 	 }
-	// 	 return newArray;
+	square: function (arr) {
+		 var newArray = [];
+		     for(var item of arr){
+		     	newArray.push(item*item);
+		 }
+		 return newArray;
 		
-	// },
+	}
 
 	// sum: function (arr) {
 	// 	var total = 0;
