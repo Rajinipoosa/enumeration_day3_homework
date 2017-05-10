@@ -7,13 +7,13 @@ var arrayTasks = {
     	} 
     return arr1;
      
-	 }
+	 },
 
-	// insertAt: function (arr, itemToAdd, index) {
-	// 	 arr.splice(index, 0, itemToAdd);
+	insertAt: function (arr, itemToAdd, index) {
+		 arr.splice(index, 0, itemToAdd);
 		    
-	// 	    return arr;
-	// },
+		    return arr;
+	}
 	
 
 	// square: function (arr) {
