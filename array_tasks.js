@@ -23,15 +23,15 @@ var arrayTasks = {
 		 }
 		 return newArray;
 		
-	}
+	},
 
-	// sum: function (arr) {
-	// 	var total = 0;
-	// 	   for (var item of arr){
-	// 	     total += item;
-	// 	   }
-	// 	   return total;
-	// 	 },
+	sum: function (arr) {
+		var total = 0;
+		   for (var item of arr){
+		     total += item;
+		   }
+		   return total;
+		 }
 
 	// findDuplicates: function (arr) {
 	// 	var newArray = [];
