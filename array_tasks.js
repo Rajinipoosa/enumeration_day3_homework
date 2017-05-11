@@ -10,9 +10,20 @@ var arrayTasks = {
 	 },
 
 	insertAt: function (arr, itemToAdd, index) {
-		 arr.splice(index, 0, itemToAdd);
+		  
+		  arr.splice(index, 0, itemToAdd);
+		 
+		     // var length = arr.length;
+		     // for(i = length -1; i >= index; i--){
+		     //     arr[length] = arr[i];
+		     //     length--;
+		     //     arr[index] = itemToAdd;
+		     // };
+		    return arr; 
+		 
+		 
 		    
-		    return arr;
+		  
 	},
 	
 
